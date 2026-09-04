@@ -75,7 +75,7 @@ lazy val writer =
         "io.circe"      %% "circe-yaml"           % "1.15.0",
         "io.circe"      %% "circe-generic-extras" % "0.14.5-RC1",
         "com.lihaoyi"   %% "requests"             % "0.9.3" % Test,
-        "org.scalameta" %% "munit"                % "1.3.5" % Test
+        "org.scalameta" %% "munit"                % "1.3.6" % Test
       )
     )
 
@@ -96,5 +96,5 @@ lazy val plugin =
         }
       },
       addSbtPlugin("com.github.sbt" % "sbt-github-actions" % "0.32.0"),
-      libraryDependencies += "org.scalameta" %% "munit" % "1.3.5" % Test
+      libraryDependencies += "org.scalameta" %% "munit" % "1.3.6" % Test
     )
